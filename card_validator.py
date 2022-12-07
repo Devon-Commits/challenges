@@ -37,4 +37,4 @@ def validation(card_string = input()): # 4091131560563988 example input
     else:
         print("not valid")
 
-validation()
+validation() # 4091131560563988 is valid
