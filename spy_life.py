@@ -20,12 +20,12 @@
 class SpyTools(): # 1t8s5%e=W d74=l14i3!W
 
     def decode(self, message):
-        reverse_message = message[::-1]
+        reverse_message = message[::-1] # slice to reverse message
         decoded_list = []
         for i in reverse_message:
-            if i.isalpha() == True or i == " ":
+            if i.isalpha() == True or i == " ": # append to list if character is a-z or " "
                 decoded_list.append(i)
-        print("".join(decoded_list))
+        print("".join(decoded_list)) # turn list back into string
 
 s1 = SpyTools()
 s1.decode(message=input()) # Wild West
