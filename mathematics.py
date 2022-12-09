@@ -26,7 +26,7 @@ def math_operators_eval(answer = int(input()), expressions = input().split(' '))
 
     for i in range(len(expressions)):
         if int(eval(expressions[i])) == answer: # evaluate each expression and compare to answer
-            return f'index {i}' #print out the index if it exists, else 'none'
+            return f'index {i}' #return the index if it exists, else 'none'
     return 'none'
 
 print(math_operators_eval()) # index 1
@@ -55,7 +55,7 @@ def math_operators(answer = int(input()), eq = input().strip("()")): # answer = 
                 total = int(eq_list[i][0]) #sets initial total to equal the first element
 
                 for k in eq_list[i][1: len(eq_list)]:
-                    total = ops[j](total, int(k)) # adds/subtracts/multiplies/divides each element to the total starting at index 1
+                    total = ops[j](total, int(k)) # adds/subtracts/multiplies/divides each element with the total starting at index 1
                 output.append(total) #adds total to new list
 
     print(output) #[104, 46, 25.0]
