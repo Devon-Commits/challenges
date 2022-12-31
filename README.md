@@ -17,7 +17,6 @@ Resources used for learning built-in functions and syntax:
 - sololearn.com
 - codemy.com
 
-Challenge Sites
+Challenge Site
 
 - sololearn.com
-- leetcode.com
